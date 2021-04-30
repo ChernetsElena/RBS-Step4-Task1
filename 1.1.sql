@@ -2,7 +2,7 @@ CREATE SCHEMA partition;
 
 CREATE TABLE partition.t_employees (
     pk_id serial,
-    c_lastname varchar(80),
+    c_lastname varchar,
     c_firstname varchar,
     c_middlename varchar,
     c_salary money,
